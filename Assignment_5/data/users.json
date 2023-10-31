@@ -27,6 +27,6 @@
     "test@gmail.com": {
         "username": "test",
         "password": "123456",
-        "role": "manager"
+        "role": "user"
     }
 }

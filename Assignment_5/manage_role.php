@@ -60,7 +60,7 @@ if (isset($_POST['add'])) {
                         <div class="relative w-full px-4 max-w-full flex-grow flex-1 text-right">
                             <button class="text-white bg-orange-500 active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"><a href="index.php">Home</a></button>
 
-                            <button class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="addUserOpen()"><a href="index.php">ADD</a></button>
+                            <button class="bg-indigo-500 text-white active:bg-indigo-600 text-xs font-bold uppercase px-3 py-1 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="addUserOpen()"><a>ADD</a></button>
                         </div>
                     </div>
                 </div>

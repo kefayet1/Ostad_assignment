@@ -1,0 +1,8 @@
+CREATE TABLE `products`(
+    `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `category_id` BIGINT(20) UNSIGNED NOT NULL,
+    FOREIGN KEY (`category_id`) REFERENCES `categories`(`id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+    `name` VARCHAR(50) NOT NULL,
+    `description` VARCHAR(400) NOT NULL,
+    `price` INT(20) NOT NULL
+)
